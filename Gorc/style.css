@@ -1,0 +1,34 @@
+#video{
+    display: none;
+    
+}
+#img{
+    display: none;
+    
+}
+#text{
+    display: none;
+}
+body,div{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.big{
+    flex-direction: row;
+}
+
+img{
+    width: 20%;
+    height: auto;
+
+}
+
+@media only screen and (max-width:1000px){
+    #nkar{
+        flex-direction: column;
+        
+    }
+   
+}
